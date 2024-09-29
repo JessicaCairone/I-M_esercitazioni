@@ -1,0 +1,14 @@
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\bin\Debug\net8.0\Lez04_Esercizio2.exe
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\bin\Debug\net8.0\Lez04_Esercizio2.deps.json
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\bin\Debug\net8.0\Lez04_Esercizio2.runtimeconfig.json
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\bin\Debug\net8.0\Lez04_Esercizio2.dll
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\bin\Debug\net8.0\Lez04_Esercizio2.pdb
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.AssemblyInfo.cs
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.dll
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\refint\Lez04_Esercizio2.dll
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.pdb
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\Lez04_Esercizio2.genruntimeconfig.cache
+C:\Users\Utente\source\repos\Lez04_Esercizio2\Lez04_Esercizio2\obj\Debug\net8.0\ref\Lez04_Esercizio2.dll
