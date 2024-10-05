@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+    <title>Insert Page</title>
+</head>
+<body>
+    <!-- START NAVBAR -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+              <a class="navbar-brand" href="./index.html"><img src="./assets/logo5.jpg" alt="logo" id="logo"/></a> 
+  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> 
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" class="nav">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="./insert.html">Wands Insert</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="./insertDue.html">Houses Insert</a>
+                  </li>
+  
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="search..." aria-label="Search">
+                  <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Cerca</button>
+                </form>
+              </div>
+            </nav>
+      </header>
+     <!-- END NAVBAR -->
+       <!-- INSERT -->
+    <main>
+    <h1 class="text-center mt-4 text-warning">Inserisci una nuova bacchetta</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 text-center">
+            <div class="form-group">
+                <label for="cod">Codice</label>
+                <input type="text" class="form-control mx-auto" id="cod" disabled></input>
+            </div>
+
+            <div class="form-group">
+                <label for="mat">Materiale</label>
+                <input type="text" class="form-control mx-auto" id="mat"></input>
+                <p id="warning-nom"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="nuc">Nucleo</label>
+                <input type="text" class="form-control mx-auto" id="nuc"></input>
+                <p id="warning-nuc"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="lung">Lunghezza</label>
+                <input type="number" min="0" class="form-control mx-auto" id="lung"></input>
+                <p id="warning-lung"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="res">Resistenza</label>
+                <input type="text" class="form-control mx-auto" id="res"></input>
+                <p id="warning-res"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="mago">Nome del mago proprietario</label>
+                <input type="text" class="form-control mx-auto" id="mago"></input>
+                <p id="warning-mag"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="cas" >Casata</label>
+                <select name="casata" id="cas" class="text-secondary mx-auto">
+                    <option value="default">- Scegliere una casata -</option>
+                    <option value="corvonero">Corvonero</option>
+                    <option value="grifondoro">Grifondoro</option>
+                    <option value="tassorosso">Tassorosso</option>
+                    <option value="serpeverde">Serpeverde</option>             
+                  </select>                
+            </div>
+            <div class="form-group">
+                <label for="img">Immagine</label>
+               <input type="url" class="form-control mx-auto" placeholder="URL" id="img"></input> 
+               <p id="warning-img"></p>
+            </div>
+            <button type="button" class="btn btn-warning" onclick="wandInsert()">Inserisci</button> 
+        </div>
+        <div class="col-3"></div>
+        </div>
+        
+        </div>
+
+  </main>
+ <!-- END INSERT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <script src="./wandInsert.js"></script>
+<script src="./housesInsert.js"></script>
+</body>
+</html>
